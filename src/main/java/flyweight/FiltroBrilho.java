@@ -1,7 +1,7 @@
 package flyweight;
 
 public class FiltroBrilho implements IFiltro{
-    private double valor;
+    private final double valor;
 
     public FiltroBrilho(double valor) {
         this.valor = valor;

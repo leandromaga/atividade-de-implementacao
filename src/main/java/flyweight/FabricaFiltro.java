@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FabricaFiltro {
-    private static Map<String, IFiltro> filtros = new HashMap<>();
+    private static final Map<String, IFiltro> filtros = new HashMap<>();
 
     public static IFiltro obterFiltro(String tipo, double valor) {
         String chave = tipo + "_" + valor;
