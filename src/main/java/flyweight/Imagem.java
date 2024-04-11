@@ -1,8 +1,10 @@
 package flyweight;
 
+import static flyweight.FabricaFiltro.obterFiltro;
+
 public class Imagem {
-    public void aplicarFiltro(String tipo, double valor) {
-        IFiltro filtro = FabricaFiltro.obterFiltro(tipo, valor);
+    public void aplicarFiltro(String nome, double valor) {
+        IFiltro filtro = obterFiltro(nome, valor);
         filtro.aplicar();
     }
 }
