@@ -1,0 +1,1 @@
+LoggerAplicacao{id=1, hora=Tue Apr 23 20:26:46 BRT 2024, descricao=Log de aplicação}
